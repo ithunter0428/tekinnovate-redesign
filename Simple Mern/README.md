@@ -5,6 +5,7 @@ REST API backend in Express.js to track library books.
 Install npm packages
 ```
 npm install
+yarn add
 ```
 Change node env if you need
 ```
@@ -14,7 +15,7 @@ or
 ```
 set NODE_ENV=production
 ```
-Run client.js
+Run Client & Server in dev mode
+
 ```
-node client
-```
+npm run dev
