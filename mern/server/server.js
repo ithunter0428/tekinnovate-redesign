@@ -32,7 +32,7 @@ app.use(cors());
 app.use(express.json());
 app.use(require("./routes/record"));
 
-//inquery
+//inqury
 app.use("/inquiries", tekRoute);
 
 mongoose.connect(config.mongodbURI, { useNewUrlParser: true })
